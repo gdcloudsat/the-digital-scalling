@@ -7,10 +7,12 @@
                 </a>
             </div>
             <div class="hidden md:block">
-                <div class="ml-10 flex items-baseline space-x-8">
+                <div class="ml-10 flex items-baseline space-x-6">
                     <a href="{{ route('home') }}" class="hover:text-[var(--primary-color)] transition-colors {{ request()->routeIs('home') ? 'text-[var(--primary-color)]' : '' }}">Home</a>
                     <a href="{{ route('about') }}" class="hover:text-[var(--primary-color)] transition-colors {{ request()->routeIs('about') ? 'text-[var(--primary-color)]' : '' }}">About</a>
                     <a href="{{ route('services.index') }}" class="hover:text-[var(--primary-color)] transition-colors {{ request()->routeIs('services.index') ? 'text-[var(--primary-color)]' : '' }}">Services</a>
+                    <a href="{{ route('projects.index') }}" class="hover:text-[var(--primary-color)] transition-colors {{ request()->routeIs('projects.index') ? 'text-[var(--primary-color)]' : '' }}">Portfolio</a>
+                    <a href="{{ route('blog.index') }}" class="hover:text-[var(--primary-color)] transition-colors {{ request()->routeIs('blog.index') ? 'text-[var(--primary-color)]' : '' }}">Blog</a>
                     <a href="{{ route('contact') }}" class="px-6 py-2 rounded-full bg-[var(--primary-color)] text-white hover:opacity-90 transition-opacity">Contact Us</a>
                 </div>
             </div>
@@ -27,3 +29,9 @@
 </nav>
 
 <div class="h-20"></div> {{-- Spacer for fixed navbar --}}
+/home/engine/.bashrc: line 1: syntax error near unexpected token `('
+/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
+/home/engine/.bashrc: line 1: syntax error near unexpected token `('
+/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
+/home/engine/.bashrc: line 1: syntax error near unexpected token `('
+/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
