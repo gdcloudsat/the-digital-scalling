@@ -1,4 +1,8 @@
 @import 'tailwindcss';
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+@import "aos/dist/aos.css";
 
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
@@ -8,4 +12,17 @@
 @theme {
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+:root {
+    --primary-color: var(--theme-primary-500, #3b82f6);
+    --secondary-color: var(--theme-secondary-500, #10b981);
+}
+
+.glass {
+    @apply bg-white/10 backdrop-blur-md border border-white/20;
+}
+
+.text-gradient {
+    @apply bg-clip-text text-transparent bg-linear-to-r from-[var(--primary-color)] to-[var(--secondary-color)];
 }
