@@ -26,6 +26,9 @@
 
     @include('partials.footer')
 
+    @include('partials.whatsapp-button')
+    @include('partials.popup-lead')
+
     @stack('scripts')
 </body>
 </html>
