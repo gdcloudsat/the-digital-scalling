@@ -19,3 +19,4 @@ To provide a seamless, content-rich experience for digital agencies to present t
 - **Scalability:** Built on Laravel's robust foundation.
 - **User Experience:** Smooth animations and intuitive navigation.
 - **Manageability:** Powerful admin panel powered by Filament.
+.
